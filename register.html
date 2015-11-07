@@ -139,11 +139,11 @@
                     <div id="processTabs">
 						<ul class="process-steps process-2 bottommargin clearfix">
 							<li>
-								<a href="#ptab1" class="i-circled i-bordered i-alt divcenter">1</a>
+								<a href="#ptab1" class="i-circled i-bordered i-alt divcenter icon-user2"></a>
 								<h5>Info personali</h5>
 							</li>
 							<li>
-								<a href="#ptab2" class="i-circled i-bordered i-alt divcenter">2</a>
+								<a href="#ptab2" class="i-circled i-bordered i-alt divcenter icon-line2-wallet"></a>
 								<h5>Dati fatturazione</h5>
 							</li>
 							
@@ -152,7 +152,7 @@
                             <form id="register-form" name="register-form" class="nobottommargin" action="#" method="post">
                                 <div id="ptab1">
                                     <div class="tab-content clearfix" id="tab-register">
-                                        <div class="panel panel-default nobottommargin">
+                                        <div class="panel panel-bg panel-default nobottommargin">
                                             <div class="panel-body" style="padding: 40px;">
                                                 <div class="col_half nobottommargin">
                                                     <div class="radio text-lg-left text-md-left text-sm-left  text-xs-center">
@@ -180,23 +180,23 @@
                                                 <div class="divider divider-center"><i class="icon-arrow-down2"></i></div>
                                                 <div class="col_full hidden">
                                                     <label for="register-form-company">Ragione sociale:</label>
-                                                    <input type="text" id="register-form-company" name="register-form-company" value="" class="form-control" />
+                                                    <input type="text" id="register-form-company" name="register-form-company" value="" class="form-control required" />
                                                 </div>
                                                 <div class="col_half">
                                                     <label for="register-form-name">Nome:</label>
-                                                    <input type="text" id="register-form-name" name="register-form-name" value="" class="form-control" />
+                                                    <input type="text" id="register-form-name" name="register-form-name" value="" class="form-control required" />
                                                 </div>
                                                 <div class="col_half  col_last">
                                                     <label for="register-form-surname">Cognome:</label>
-                                                    <input type="text" id="register-form-surname" name="register-form-surname" value="" class="form-control" />
+                                                    <input type="text" id="register-form-surname" name="register-form-surname" value="" class="form-control required" />
                                                 </div>
                                                 <div class="col_full">
                                                     <label for="register-form-email">Email:</label>
-                                                    <input type="text" id="register-form-email" name="register-form-email" value="" class="form-control" />
+                                                    <input type="text" id="register-form-email" name="register-form-email" value="" class="form-control required" />
                                                 </div>
                                                 <div class="col_full">
                                                     <label for="register-form-category">Ruolo:</label>
-                                                    <select id="register-form-category" name="register-form-category" class="form-control" >
+                                                    <select id="register-form-category" name="register-form-category" class="form-control required" >
                                                         <option value="">-- Scegli --</option>
                                                         <option value="sassofono">Sassofonista</option>
                                                         <option value="piano">Pianista</option>
@@ -205,16 +205,16 @@
                                                 </div>
                                                 <div class="col_half">
                                                     <label for="register-form-password">Scegli una Password:</label>
-                                                    <input type="password" id="register-form-password" name="register-form-password" value="" class="form-control" />
+                                                    <input type="password" id="register-form-password" name="register-form-password" value="" class="form-control required" />
                                                 </div>
 
                                                 <div class="col_half col_last">
                                                     <label for="register-form-repassword">Re-inserisci la Password:</label>
-                                                    <input type="password" id="register-form-repassword" name="register-form-repassword" value="" class="form-control" />
+                                                    <input type="password" id="register-form-repassword" name="register-form-repassword" value="" class="form-control required" />
                                                 </div>
 
                                                 <div class="col_full nobottommargin text-lg-right text-md-right text-sm-right  text-xs-center">
-                                                    <button class="button button-rounded nomargin" id="register-form-submit" name="register-form-submit" value="register">dati fatturazione <i class="icon-arrow-right2"></i></button>
+                                                    <button class="button button-rounded nomargin tab-linker" rel="2" id="next" name="dati" value="next">dati fatturazione <i class="icon-arrow-right2"></i></button>
                                                 </div>
                                             </div>
                                         </div>
@@ -226,11 +226,11 @@
                                             <div class="panel-body" style="padding: 40px;">
                                                 <div class="col_two_third">
                                                     <label for="register-form-name">Indirizzo:</label>
-                                                    <input type="text" id="register-form-name" name="register-form-name" value="" class="form-control" />
+                                                    <input type="text" id="register-form-name" name="register-form-name" value="" class="form-control required" />
                                                 </div>
                                                 <div class="col_one_third col_last">
                                                     <label for="register-form-surname">Città:</label>
-                                                    <select id="register-form-category" name="register-form-category" class="form-control" >
+                                                    <select id="register-form-category" name="register-form-category" class="form-control required" >
                                                         <option value="">-- Scegli --</option>
                                                         <option value="sassofono">Cagliari</option>
                                                         <option value="piano">Perugia</option>
@@ -239,7 +239,7 @@
                                                 </div>
                                                 <div class="col_full">
                                                     <label for="register-form-email">C.F. / P.Iva:</label>
-                                                    <input type="text" id="register-form-email" name="register-form-email" value="" class="form-control" />
+                                                    <input type="text" id="register-form-email" name="register-form-email" value="" class="form-control required" />
                                                 </div>
                                                 <div class="col_full nobottommargin">
                                                     <div class="col_half nobottommargin text-lg-left text-md-left text-sm-left  text-xs-center">
@@ -254,6 +254,22 @@
                                     </div>
                                 </div>
                             </form>
+                            <script type="text/javascript">
+                                $("#register-form").validate({
+                                    submitHandler: function(form) {
+                                        $('.form-process').fadeIn();
+                                        $(form).ajaxSubmit({
+                                            target: '#contact-form-result',
+                                            success: function() {
+                                                $('.form-process').fadeOut();
+                                                $('#template-contactform').find('.sm-form-control').val('');
+                                                $('#contact-form-result').attr('data-notify-msg', $('#contact-form-result').html()).html('');
+                                                SEMICOLON.widget.notifications($('#contact-form-result'));
+                                            }
+                                        });
+                                    }
+                                });
+                            </script>
 						</div>
 					</div>
 
