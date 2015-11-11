@@ -1,97 +1,114 @@
 <!DOCTYPE html>
 <html dir="ltr" lang="it">
+
 <head>
 
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="author" content="SemiColonWeb" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="Marte5" />
 
-	<!-- Stylesheets
+    <!-- Stylesheets
 	============================================= -->
-	<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
-	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
-<!--	<link rel="stylesheet" href="style.less" type="text/less" />-->
-<!--	<link rel="stylesheet" href="less/dark.less" type="text/less" />-->
-	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
-	<link rel="stylesheet" href="css/animate.css" type="text/css" />
-	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
-	<link rel="stylesheet" href="css/responsive.css" type="text/css" />
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" />
+
+    <!-- Da scambiare in rilascio finale con la versione CSS compilata -->
     <link rel="stylesheet" href="custom.less" type="text/less" />
-<!--    <link rel="stylesheet" href="custom.css" type="text/css" />-->
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<!--[if lt IE 9]>
+    <!--<link rel="stylesheet" href="custom.css" type="text/css" />-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lt IE 9]>
 		<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 	<![endif]-->
 
-	<!-- External JavaScripts
+    <!-- External JavaScripts
 	============================================= -->
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/plugins.js"></script>
+
+    <!-- Compila sul client i file LESS. Da commentare (o eliminare del tutto) in rilascio finale con la versione CSS compilata -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js"></script>
 
-	<!-- Document Title
+    <!-- Document Title
 	============================================= -->
-	<title>Italian Jazz Hub</title>
+    <title>Italian Jazz Hub</title>
 
 </head>
 
 <body class="stretched sticky-footer">
 
-	<!-- Document Wrapper
+    <!-- Document Wrapper
 	============================================= -->
-	<div id="wrapper" class="clearfix">
+    <div id="wrapper" class="clearfix">
 
-		<!-- Header
+        <!-- Header
 		============================================= -->
-		<header id="header" class="transparent-header semi-transparent dark">
+        <header id="header" class="transparent-header semi-transparent dark">
 
-			<div id="header-wrap">
+            <div id="header-wrap">
 
-				<div class="container clearfix">
+                <div class="container clearfix">
 
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
+                    <div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
 
-					<!-- Logo
+                    <!-- Logo
 					============================================= -->
-					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-						<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
-					</div><!-- #logo end -->
+                    <div id="logo">
+                        <a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+                        <a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+                    </div>
+                    <!-- #logo end -->
 
-					<!-- Primary Navigation
+                    <!-- Primary Navigation
 					============================================= -->
-					<nav id="primary-menu">
+                    <nav id="primary-menu">
 
-						<ul>
-							<li><a href="index.html"><div>Home</div></a></li>
-							<li><a href="#"><div>IJH</div></a></li>
-							<li><a href="#"><div>Contatti</div></a></li>
-						</ul>
+                        <ul>
+                            <li>
+                                <a href="index.html">
+                                    <div>Home</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>IJH</div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <div>Contatti</div>
+                                </a>
+                            </li>
+                        </ul>
 
-						<!-- Top Cart
+                        <!-- Top Cart
 						============================================= -->
-						<div id="top-cart" style="display: block;">
-							<a href="#" id="top-cart-trigger"><i class="icon-user"></i><span>5</span></a>
-							<div class="top-cart-content">
-								<div class="top-cart-title">
-									<h4>Attività</h4>
-								</div>
-								<div class="top-cart-items">
-									<div class="top-cart-item clearfix">
-										<div class="top-cart-item-desc">
-											<a href="#">Hai <strong>5</strong> nuovi commenti</a>
-											<a href="#">Hai <strong>4</strong> nuovi like</a>
-										</div>
+                        <div id="top-cart" style="display: block;">
+                            <a href="#" id="top-cart-trigger"><i class="icon-user"></i><span>5</span></a>
+                            <div class="top-cart-content">
+                                <div class="top-cart-title">
+                                    <h4>Attività</h4>
+                                </div>
+                                <div class="top-cart-items">
+                                    <div class="top-cart-item clearfix">
+                                        <div class="top-cart-item-desc">
+                                            <a href="#">Hai <strong>5</strong> nuovi commenti</a>
+                                            <a href="#">Hai <strong>4</strong> nuovi like</a>
+                                        </div>
                                     </div>
-                                    
-								</div>
-								<div class="top-cart-action clearfix">
-									<button class="btn btn-primary btn-sm">Vedi tutto</button>
-								</div>
-							</div>
-						</div><!-- #top-cart end -->
 
-						<!-- Top Search
+                                </div>
+                                <div class="top-cart-action clearfix">
+                                    <button class="btn btn-primary btn-sm">Vedi tutto</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- #top-cart end -->
+
+                        <!-- Top Search
 						============================================= 
 						<div id="top-search">
 							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
@@ -100,19 +117,21 @@
 							</form>
 						</div> #top-search end -->
 
-					</nav><!-- #primary-menu end -->
+                    </nav>
+                    <!-- #primary-menu end -->
 
-				</div>
+                </div>
 
-			</div>
+            </div>
 
-		</header><!-- #header end -->
+        </header>
+        <!-- #header end -->
 
-		<!-- Page Title
+        <!-- Page Title
 		============================================= -->
-		<section id="page-title" class="page-title-parallax page-title-video yt-bg-player nobottompadding" data-quality="hd1080" data-start="11" data-stop="40" data-video="https://youtu.be/j8xPaAnx5OM" data-optimize="true" data-loop="true" data-opacity="1" style="background: #000; display: block !important">
+        <section id="page-title" class="page-title-parallax page-title-video yt-bg-player nobottompadding" data-quality="hd1080" data-start="11" data-stop="40" data-video="https://youtu.be/j8xPaAnx5OM" data-optimize="true" data-loop="true" data-opacity="1" style="background: #000; display: block !important">
             <div class="container clearfix">
-                
+
                 <div class="col_two_third dark">
                     <div class="panel-body" style="padding: 0px 0;">
                         <div class="emphasis-title title-center">
@@ -162,17 +181,17 @@
                                     <button class="button button-rounded button-background nomargin" id="login-form-submit" name="login-form-submit" value="login">Accedi</button>
                                 </div>
                                 <div class="col_full nobottommargin">
-                                    
+
                                     <a href="#" class="">Password dimenticata?</a>
                                 </div>
                             </form>
                             <script type="text/javascript">
                                 $("#login-form").validate({
-                                    submitHandler: function(form) {
+                                    submitHandler: function (form) {
                                         $('.form-process').fadeIn();
                                         $(form).ajaxSubmit({
                                             target: '#contact-form-result',
-                                            success: function() {
+                                            success: function () {
                                                 $('.form-process').fadeOut();
                                                 $('#template-contactform').find('.sm-form-control').val('');
                                                 $('#contact-form-result').attr('data-notify-msg', $('#contact-form-result').html()).html('');
@@ -187,20 +206,21 @@
                 </div>
             </div>
 
-		</section><!-- #page-title end -->
+        </section>
+        <!-- #page-title end -->
 
-		<!-- Content
+        <!-- Content
 		============================================= -->
-		<section id="content">
-			<div class="content-wrap nopadding">
+        <section id="content">
+            <div class="content-wrap nopadding">
                 <div class="section spray-texture nomargin">
                     <div class="container clearfix">
                         <div class="fancy-title title-dotted-border title-center">
                             <h3>Highlights</h3>
                         </div>
                         <div id="portfolio" class="portfolio-nomargin portfolio-notitle clearfix">
-                            
-                            
+
+
                             <article class="portfolio-item pf-media pf-icons">
                                 <div class="portfolio-image">
                                     <a href="portfolio-single.html">
@@ -216,7 +236,7 @@
                                     <span><a href="#">Bebop</a>, <a href="#">Latin jazz</a></span>
                                 </div>
                             </article>
-                            
+
                             <article class="portfolio-item pf-illustrations">
                                 <div class="portfolio-image">
                                     <a href="portfolio-single.html">
@@ -254,8 +274,12 @@
                                     <div class="fslider" data-arrows="false" data-speed="400" data-pause="4000">
                                         <div class="flexslider">
                                             <div class="slider-wrap">
-                                                <div class="slide"><a href="portfolio-single-gallery.html"><img src="images/gallery/jazz4.jpg" alt="Morning Dew"></a></div>
-                                                <div class="slide"><a href="portfolio-single-gallery.html"><img src="images/gallery/jazz4.jpg" alt="Morning Dew"></a></div>
+                                                <div class="slide">
+                                                    <a href="portfolio-single-gallery.html"><img src="images/gallery/jazz4.jpg" alt="Morning Dew"></a>
+                                                </div>
+                                                <div class="slide">
+                                                    <a href="portfolio-single-gallery.html"><img src="images/gallery/jazz4.jpg" alt="Morning Dew"></a>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -275,119 +299,128 @@
                         <!-- Portfolio Script
                         ============================================= -->
                         <script type="text/javascript">
-
-                            jQuery(window).load(function(){
+                            jQuery(window).load(function () {
 
                                 var $container = $('#portfolio');
 
-                                $container.isotope({ transitionDuration: '0.65s' });
+                                $container.isotope({
+                                    transitionDuration: '0.65s'
+                                });
 
-                                $('#portfolio-filter a').click(function(){
+                                $('#portfolio-filter a').click(function () {
                                     $('#portfolio-filter li').removeClass('activeFilter');
                                     $(this).parent('li').addClass('activeFilter');
                                     var selector = $(this).attr('data-filter');
-                                    $container.isotope({ filter: selector });
+                                    $container.isotope({
+                                        filter: selector
+                                    });
                                     return false;
                                 });
 
-                                $('#portfolio-shuffle').click(function(){
+                                $('#portfolio-shuffle').click(function () {
                                     $container.isotope('updateSortData').isotope({
                                         sortBy: 'random'
                                     });
                                 });
 
-                                $(window).resize(function() {
+                                $(window).resize(function () {
                                     $container.isotope('layout');
                                 });
 
                             });
-
-                        </script><!-- Portfolio Script End -->
+                        </script>
+                        <!-- Portfolio Script End -->
 
                     </div>
                 </div>
-			</div>
+            </div>
 
-		</section><!-- #content end -->
+        </section>
+        <!-- #content end -->
 
-		<!-- Footer
+        <!-- Footer
 		============================================= -->
-		<footer id="footer" class="dark nopadding nomargin">
+        <footer id="footer" class="dark nopadding nomargin">
 
-			<!-- Copyrights
+            <!-- Copyrights
 			============================================= -->
-			<div id="copyrights">
+            <div id="copyrights">
 
-				<div class="container clearfix">
+                <div class="container clearfix">
 
-					<div class="col_half">
-						Copyrights &copy; 2015 All Rights Reserved by Italian Jazz HUb.<br>
-						<div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
-					</div>
+                    <div class="col_half">
+                        Copyrights &copy; 2015 All Rights Reserved by Italian Jazz HUb.
+                        <br>
+                        <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>
+                    </div>
 
-					<div class="col_half col_last tright">
-						<div class="fright clearfix">
-							<a href="#" class="social-icon si-small si-borderless si-facebook">
-								<i class="icon-facebook"></i>
-								<i class="icon-facebook"></i>
-							</a>
+                    <div class="col_half col_last tright">
+                        <div class="fright clearfix">
+                            <a href="#" class="social-icon si-small si-borderless si-facebook">
+                                <i class="icon-facebook"></i>
+                                <i class="icon-facebook"></i>
+                            </a>
 
-							<a href="#" class="social-icon si-small si-borderless si-twitter">
-								<i class="icon-twitter"></i>
-								<i class="icon-twitter"></i>
-							</a>
+                            <a href="#" class="social-icon si-small si-borderless si-twitter">
+                                <i class="icon-twitter"></i>
+                                <i class="icon-twitter"></i>
+                            </a>
 
-							<a href="#" class="social-icon si-small si-borderless si-gplus">
-								<i class="icon-gplus"></i>
-								<i class="icon-gplus"></i>
-							</a>
+                            <a href="#" class="social-icon si-small si-borderless si-gplus">
+                                <i class="icon-gplus"></i>
+                                <i class="icon-gplus"></i>
+                            </a>
 
-							<a href="#" class="social-icon si-small si-borderless si-pinterest">
-								<i class="icon-pinterest"></i>
-								<i class="icon-pinterest"></i>
-							</a>
+                            <a href="#" class="social-icon si-small si-borderless si-pinterest">
+                                <i class="icon-pinterest"></i>
+                                <i class="icon-pinterest"></i>
+                            </a>
 
-							<a href="#" class="social-icon si-small si-borderless si-vimeo">
-								<i class="icon-vimeo"></i>
-								<i class="icon-vimeo"></i>
-							</a>
+                            <a href="#" class="social-icon si-small si-borderless si-vimeo">
+                                <i class="icon-vimeo"></i>
+                                <i class="icon-vimeo"></i>
+                            </a>
 
-							<a href="#" class="social-icon si-small si-borderless si-github">
-								<i class="icon-github"></i>
-								<i class="icon-github"></i>
-							</a>
+                            <a href="#" class="social-icon si-small si-borderless si-github">
+                                <i class="icon-github"></i>
+                                <i class="icon-github"></i>
+                            </a>
 
-							<a href="#" class="social-icon si-small si-borderless si-yahoo">
-								<i class="icon-yahoo"></i>
-								<i class="icon-yahoo"></i>
-							</a>
+                            <a href="#" class="social-icon si-small si-borderless si-yahoo">
+                                <i class="icon-yahoo"></i>
+                                <i class="icon-yahoo"></i>
+                            </a>
 
-							<a href="#" class="social-icon si-small si-borderless si-linkedin">
-								<i class="icon-linkedin"></i>
-								<i class="icon-linkedin"></i>
-							</a>
-						</div>
+                            <a href="#" class="social-icon si-small si-borderless si-linkedin">
+                                <i class="icon-linkedin"></i>
+                                <i class="icon-linkedin"></i>
+                            </a>
+                        </div>
 
-						<div class="clear"></div>
+                        <div class="clear"></div>
 
-						<i class="icon-envelope2"></i> info@ijh.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> IJHOnSkype
-					</div>
+                        <i class="icon-envelope2"></i> info@ijh.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +91-11-6541-6369 <span class="middot">&middot;</span> <i class="icon-skype2"></i> IJHOnSkype
+                    </div>
 
-				</div>
+                </div>
 
-			</div><!-- #copyrights end -->
+            </div>
+            <!-- #copyrights end -->
 
-		</footer><!-- #footer end -->
+        </footer>
+        <!-- #footer end -->
 
-	</div><!-- #wrapper end -->
+    </div>
+    <!-- #wrapper end -->
 
-	<!-- Go To Top
+    <!-- Go To Top
 	============================================= -->
-	<div id="gotoTop" class="icon-angle-up"></div>
+    <div id="gotoTop" class="icon-angle-up"></div>
 
-	<!-- Footer Scripts
+    <!-- Footer Scripts
 	============================================= -->
-	<script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
 
 </body>
+
 </html>
