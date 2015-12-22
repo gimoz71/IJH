@@ -38,7 +38,7 @@
 
 </head>
 
-<body class="stretched sticky-footer">
+    <body class="stretched sticky-footer" data-loader="2" data-animation-in="fadeIn" data-speed-in="1500" data-animation-out="fadeOut" data-speed-out="800">
 
     <!-- Document Wrapper
 	============================================= -->
@@ -138,7 +138,7 @@
                                 <div class="fbox-icon" data-animate="bounceIn" data-delay="300">
                                     <a href="#"><img src="images/custom/icons/dark-visibility.png" alt="Cloud"></a>
                                 </div>
-                                <h3>Maggiori visibilit&aacute;</h3>
+                                <h3>Maggiorie visibilit&aacute;</h3>
                                 <p>Entra nella più grande fiera di settore dove puoi <strong style="color: #ccc">fare networking</strong> con utenti profilati.</p>
                                 <p><a href="chi-siamo.html" class="button button-rounded button-small nobottommargin">Approfondisci</a></p>
                             </div>
@@ -342,29 +342,21 @@
                 <!-- Copyrights
                 ============================================= -->
                 <div id="copyrights">
-
                     <div class="container clearfix">
-
-                        <div class="col_half">
-                            <div class="widget clearfix">
-
-                                <img src="images/footer-widget-logo.png" alt="" class="footer-logo">
-
-                                <div>
-                                    <h4 class="nomargin">IMF Foundation</h4>
-                                    <h5 class="nomargin">International Music Festival Foundation</h5>
-                                    <div class="divider nomargin"><i class="icon-address"></i></div>
-                                    <address>
-                                        <strong>Sede operativa:</strong><br>
-                                        Via Giuseppe Sacconi, 19 - Lotto G<br>
-                                        00196 roma<br>
-                                    </address>
-                                </div>
-
-                            </div>
+                        <div class="col_one_fifth nobottommargin">
+                            <img src="images/footer-widget-logo.png" alt="" class="footer-logo">
                         </div>
-
-                        <div class="col_half col_last tright">
+                        <div class="col_two_fifth nobottommargin">
+                            <h4 class="nomargin">IMF Foundation</h4>
+                            <h5 class="nomargin">International Music Festival Foundation</h5>
+                            <address class="nomargin nopadding">
+                                <strong>Sede operativa:</strong>
+                                Via Giuseppe Sacconi, 19 - Lotto G
+                                00196 roma
+                            </address>
+                            <i class="icon-envelope2"></i> italianjazzhub@gmail.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +39 06 90207045<span class="middot"></span>
+                        </div>
+                        <div class="col_two_fifth col_last nobottommargin fright">
                             <div class="fright clearfix">
                                 <a href="#" class="social-icon si-small si-borderless si-facebook">
                                     <i class="icon-facebook"></i>
@@ -406,19 +398,42 @@
                                     <i class="icon-linkedin"></i>
                                 </a>
                             </div>
-
-                            <div class="clear"></div>
-
-                            <i class="icon-envelope2"></i> italianjazzhub@gmail.com <span class="middot">&middot;</span> <i class="icon-headphones"></i> +39 06 90207045<span class="middot"></span>
                         </div>
-
                     </div>
-
                 </div>
                 <!-- #copyrights end -->
 
             </footer>
         <!-- #footer end -->
+            
+        <!-- Cookie Notification Bar
+        ============================================= -->
+        <div id="cookie-notification" class="dark">
+            <div class="container clearfix">
+                Per facilitare l'use del nostro sito web utilizziamo cookies. Continuando la navigazione nel sito autorizzi l'uso dei cookies.
+                <button class="cookie-accept notopmargin cookie-noti-btn fright button button-rounded button-red button-small">Accetta</button>
+                <button class="fright button notopmargin button-rounded button-small" data-toggle="modal" data-target=".bs-example-modal-lg">Info sui cookie</button>
+            </div>
+        </div>
+        <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-body">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="myModalLabel">Informativa cookie</h4>
+                        </div>
+                        <div class="modal-body">
+                            <h5>Cookie di navigazione o sessione</h5>
+                            <p class="nobottommargin">Il Sito utilizza esclusivamente cookie 'tecnici'.<br>Specificatamente, vengono utilizzati cookie di navigazione o sessione , diretti a garantire la normale navigazione e fruizione del sito web, e quindi finalizzati a rendere funzionale ed ottimizzare la stessa navigazione all’interno del sito.</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Ok ho letto</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </div>
     <!-- #wrapper end -->
