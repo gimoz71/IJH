@@ -3,12 +3,12 @@
 @import "style.less";
 @import "less/dark.less";
 
+/* start custom */
 @screen-sm-min : 768px;
 @screen-md-min : 992px;
 @screen-lg-min : 1200px;
 
 @theme-color: #1D5268;
-
 
 .text-xs-left { text-align: left; }
 .text-xs-right { text-align: right; }
@@ -74,9 +74,21 @@
     background-size: cover;
 }
 
-.text-shadow {
-    text-shadow: 0 2px 3px rgba(0,0,0,1);
+.intro-bg {
+    background-image: url(images/custom/jazz-intro-wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
 }
+
+// custom style
+
+.text-shadow {
+    text-shadow: 0 2px 2px rgba(0,0,0,1) !important;
+}
+
+
+
 
 .tab-nav.nav-justified {
     width: 100%;
@@ -121,4 +133,14 @@
     .tab-nav.nav-justified > .active > a:focus {
         border-bottom-color: #ffffff;
     }
+}
+
+/* customize page elements */
+
+.video-wrap {
+    height: 100%;
+}
+
+#primary-menu ul li a {
+    padding: 0 10px
 }
